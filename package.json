@@ -1,0 +1,68 @@
+{
+  "name": "vue-cli3.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev01-build": "vue-cli-service build --mode development",
+    "dev02-build": "vue-cli-service build --mode development",
+    "test-build": "vue-cli-service build --mode test",
+    "test01-build": "vue-cli-service build --mode test01",
+    "beta-build": "vue-cli-service build --mode staging",
+    "master-build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "element-ui": "^2.13.2",
+    "vue": "^2.5.17",
+    "vue-ls": "^3.2.1",
+    "vue-prevent-browser-back": "^1.0.5",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "yach.open.jssdk": "^4.0.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "axios": "^0.18.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

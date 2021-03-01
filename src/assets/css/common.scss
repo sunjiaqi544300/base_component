@@ -1,0 +1,16 @@
+.message-error {
+  background: #fff;
+  border-color: #f2f2f2;
+  min-width: 0;
+}
+.message-error .el-message__content {
+  color: #222222;
+}
+.message-error .el-icon-error {
+  color: #FF5555;
+}
+
+body, #ifreamApp{
+  /*font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
+  font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","HeitiSC","WenQuanYi Micro Hei",sans-serif;
+}
